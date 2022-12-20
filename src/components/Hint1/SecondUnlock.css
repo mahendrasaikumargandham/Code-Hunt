@@ -1,0 +1,91 @@
+.trail_box_inside_form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 500px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.trail_box_inside_form_input {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 10px;
+    background-color: lightgray;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 20%;
+    font-size: 20px;
+}
+.trail_box_inside_form_button {
+    position: absolute;
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 10px;
+    background-color: #ff0000;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 10px;
+    width: 22%;
+    font-size: 20px;
+    color: #fff;
+}
+.trail_box_inside_form_image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    filter: blur(2%);
+}
+.trail_box_inside_form_image_inside {
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 200px;
+}
+.second_box_inside_form_h2 {
+    position: absolute;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.second_box_inside_form_p {
+    position: absolute;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.trail_box_inside_form_a {
+    position: absolute;
+    width: 170px;
+    background-color: #000000;
+    color: #ff0000;
+    font-weight: 700;
+    text-transform: uppercase;
+    top: 90%;
+    left: 90%;
+    transform: translate(-60%, -50%);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+}
