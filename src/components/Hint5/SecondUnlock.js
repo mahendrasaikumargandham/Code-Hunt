@@ -45,7 +45,7 @@ function SecondUnlock() {
           </button>
           <a
             className="trail_box_inside_form_a"
-            href="http://localhost:3000/climax"
+            href="https://codehunt-valiant.vercel.app/climax"
             target="_blank"
           >
             Try solving case 6
