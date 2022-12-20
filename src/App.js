@@ -1,7 +1,7 @@
 import "./App.css";
 import Trail from "./components/Trail";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Hint2 from "./components/Hint2";
+import Hint2 from "./components/Hint2/Hint2";
 
 function App() {
   return (
