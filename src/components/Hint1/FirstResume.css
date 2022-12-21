@@ -17,6 +17,7 @@
 .firstresume_box_profile {
     width: 200px;
     margin: 10px;
+    border-radius: 10px;
 }
 .firstresume_box_close {
     padding: 5px;
@@ -32,5 +33,26 @@
     margin-left: 100px;
 }
 .firstresume_box_h2 {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.firstresume_box_h3 {
+    color: #fff;
+    font-size: 20px;
+}
+.firstresume_box_edu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.firstresume_box_edu h2 {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.firstresume_box_edu h3 {
     color: #fff;
 }

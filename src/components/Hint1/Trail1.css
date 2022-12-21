@@ -18,3 +18,16 @@
     border-radius: 10px;
     filter: blur(3px);
 }
+.trail_box_2_image {
+    width: 70%;
+}
+.trail_box_2_click {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: transparent;
+}
