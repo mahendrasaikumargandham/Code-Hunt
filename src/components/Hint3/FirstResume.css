@@ -9,12 +9,50 @@
     padding: 20px;
     border-radius: 10px;
 }
-/* .firstresume_box_intro {
+.firstresume_box_intro {
     display: flex;
-    justify-content: flex-start;
-    gap: 30px;
-} */
+    justify-content: space-between;
+    width: 100%;
+}
 .firstresume_box_profile {
     width: 200px;
     margin: 10px;
+    border-radius: 10px;
+}
+.firstresume_box_close {
+    padding: 5px;
+    width: 100px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #ff0000;
+    color: #000000;
+    margin: 10px;
+    margin-left: 100px;
+}
+.firstresume_box_h2 {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.firstresume_box_h3 {
+    color: #fff;
+    font-size: 20px;
+}
+.firstresume_box_edu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.firstresume_box_edu h2 {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.firstresume_box_edu h3 {
+    color: #fff;
 }

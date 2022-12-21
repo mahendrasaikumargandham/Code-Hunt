@@ -7,13 +7,18 @@ function Trail1() {
   const [lock, setLock] = useState(true);
   const code = "";
   return (
-    <div className="trail">
+    <div className="dna">
       <div className="trail_box_1">
         <div className="trail_box_inside">{lock ? <Unlock /> : <h1></h1>}</div>
       </div>
       <div className="trail_box_2">
-        <img className="trail_box_2_image" src={car} alt="" />
-        <button className="trail_box_2_click">click here</button>
+        <a
+          href="http://codehunt-valiant.vercel.app/firstcase/find"
+          target="_blank"
+          className="trail_box_2_button"
+        >
+          Guess the Clue
+        </a>
       </div>
     </div>
   );

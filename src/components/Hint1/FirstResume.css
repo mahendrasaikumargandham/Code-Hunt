@@ -56,3 +56,23 @@
 .firstresume_box_edu h3 {
     color: #fff;
 }
+.firstresume_box_dna {
+    position: relative;
+    background: #ff0000;
+    width: 93%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.firstresume_box_dna_first_h2 {
+    text-decoration: underline;
+}
+.firstresume_box_dna_first_h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.firstresume_box_dna_h2 {
+    text-align: center;
+    text-decoration:underline;
+}

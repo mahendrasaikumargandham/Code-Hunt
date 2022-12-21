@@ -1,6 +1,6 @@
 import React from "react";
 import "./FirstResume.css";
-import profile from "../images/bio.svg";
+import profile from "../images/minister.png";
 
 function FirstResume({ setOpenResume }) {
   return (
@@ -11,7 +11,9 @@ function FirstResume({ setOpenResume }) {
             <img className="firstresume_box_profile" src={profile} alt="" />
           </div>
           <div>
-            <h2 className="firstresume_box_h2">Name of the Victim</h2>
+            <h2 className="firstresume_box_h2">Neel Rao (Finance Minister)</h2>
+            <h2 className="firstresume_box_h3">Date of Birth - 7 Feb 1992</h2>
+            <h2 className="firstresume_box_h3">Place of Birth - Karnataka</h2>
           </div>
           <div>
             <button
@@ -20,6 +22,52 @@ function FirstResume({ setOpenResume }) {
             >
               Close
             </button>
+          </div>
+        </div>
+        <div className="firstresume_box_edu">
+          <div className="firstresume_box_part1">
+            <h2>Education Details</h2>
+            <h3>SCHOOL NAME - St.Xavier High school</h3>
+            <h3>COLLEGE NAME - B.A. at SRC Thiruchirapalli</h3>
+            {/* <h3>MD IN CARDIOLOGY AIIMS Delhi</h3> */}
+          </div>
+          <div className="firstresume_box_part2">
+            <h2>Contact Info</h2>
+            <h3>PHONE NO - 723XXXX440</h3>
+            <h3>EMAIL ID - neelrao@gmail.com</h3>
+            <h3>PROFESSION - Finance Minister</h3>
+          </div>
+        </div>
+        <div className="firstresume_box_edu">
+          <div className="firstresume_box_part1">
+            <h2>Schemes initiated by Neel</h2>
+            <h3>Pradhan Mantri Jan Dhan Yojana (PMJDY)</h3>
+            <h3>From Jan Dhan to Jan Suraksha</h3>
+            <h3>Pradhan Mantri Mudra Yojana</h3>
+            <h3>Atal pension Yojana (APY)</h3>
+          </div>
+          <div className="firstresume_box_part2">
+            <h2>Alligations</h2>
+            <h3>That he cleared foreign investments in exchange for bribes</h3>
+          </div>
+        </div>
+        <div className="firstresume_box_dna">
+          <h2 className="firstresume_box_dna_h2">DNA Report</h2>
+          <div className="firstresume_box_dna_first">
+            <h2 className="firstresume_box_dna_first_h2">Victim</h2>
+            <h2 className="firstresume_box_dna_first_h3">- Neil Rao</h2>
+          </div>
+          <div className="firstresume_box_dna_first">
+            <h2 className="firstresume_box_dna_first_h2">Fingerprints</h2>
+            <h2 className="firstresume_box_dna_first_h3">- Neil Rao</h2>
+          </div>
+          <div className="firstresume_box_dna_first">
+            <h2 className="firstresume_box_dna_first_h2">Hair</h2>
+            <h2 className="firstresume_box_dna_first_h3">- Hari Rathore</h2>
+          </div>
+          <div className="firstresume_box_dna_first">
+            <h2 className="firstresume_box_dna_first_h2">Footprints</h2>
+            <h2 className="firstresume_box_dna_first_h3">Unknown</h2>
           </div>
         </div>
       </div>

@@ -1,0 +1,54 @@
+.casedetails_box {
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    height: 900px;
+    background: #000000;
+    border-radius: 10px;
+}
+.casedetails_box_info {
+    display: flex;
+}
+.casedetails_box_header_heading {
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+.casedetails_box_header_button {
+    position: absolute;
+    top: 5%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 40px;
+    background-color: #ff0000;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 7px;
+}
+
+.casedetails_box_details {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.casedetails_box_details_h2 {
+    color:#fff;
+    text-decoration: underline;
+}
+.casedetails_box_details_h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.casedetails_box_belowInfo {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20%;
+}

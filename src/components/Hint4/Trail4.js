@@ -10,7 +10,15 @@ function Trail4() {
       <div className="trail_box_1">
         <div className="trail_box_inside">{lock ? <Unlock /> : <h1></h1>}</div>
       </div>
-      <div className="trail_box_2"></div>
+      <div className="trail_box_2">
+        <a
+          href="http://codehunt-valiant.vercel.app/forthcase/find"
+          target="_blank"
+          className="trail_box_2_button"
+        >
+          Guess the Clue
+        </a>
+      </div>
     </div>
   );
 }

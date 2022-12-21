@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import codehunt from "../images/codehunt.png";
+import CaseDetails from "./CaseDetails";
 import FirstResume from "./FirstResume";
 import "./SecondUnlock.css";
 
@@ -14,7 +15,7 @@ function SecondUnlock() {
   return (
     <div className="secondunlock">
       {openResume ? (
-        <FirstResume openResume={openResume} setOpenResume={setOpenResume} />
+        <CaseDetails openResume={openResume} setOpenResume={setOpenResume} />
       ) : (
         <form className="trail_box_inside_form">
           <img src={codehunt} alt="" className="trail_box_inside_form_image" />
@@ -45,7 +46,7 @@ function SecondUnlock() {
           </button>
           <a
             className="trail_box_inside_form_a"
-            href="https://codehunt-valiant.vercel.app/fifthcase"
+            href="https://codehunt-valiant.vercel.app/climax"
             target="_blank"
           >
             Try solving case 5
