@@ -29,7 +29,8 @@ function FirstUnlock() {
             className="trail_box_inside_form_image_inside"
           />
           <h2 className="trail_box_inside_form_h2">
-            To enter the case 1, try to open the lock.
+            To enter the case 1, try to open the lock by forming a meaningful
+            name from below image.
           </h2>
           <input
             type="text"

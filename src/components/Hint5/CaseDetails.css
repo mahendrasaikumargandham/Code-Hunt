@@ -46,3 +46,14 @@
     font-size: 18px;
     font-weight: 600;
 }
+.firstresume_box_callDetails_a {
+    position: relative;
+    left: 45%;
+    transform: translate(-50%, 0%);
+    text-decoration: none;
+    color: #000000;
+    background-color: #ff0000;
+    padding: 10px;
+    border-radius: 7px;
+    font-weight: 700;
+}

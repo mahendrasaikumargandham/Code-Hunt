@@ -82,6 +82,15 @@ function CaseDetails({ openResume, setOpenResume }) {
             got a call.
           </h2>
         </div>
+        <div className="firstresume_box_callDetails">
+          <a
+          className = "firstresume_box_callDetails_a"
+            href="https://docs.google.com/spreadsheets/d/1WeZfVAVW6k5EAGTHPtYoBjyOtjeLOCV9yc7n2lmOQxM/edit#gid=0"
+            target="_blank"
+          >
+            Get Call Details
+          </a>
+        </div>
         <div className="firstresume_box_dna">
           <h2 className="firstresume_box_dna_h2">DNA Report</h2>
           <div className="firstresume_box_dna_first">

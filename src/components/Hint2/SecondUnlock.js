@@ -8,7 +8,7 @@ function SecondUnlock() {
   const [code, setCode] = useState("");
   const [openResume, setOpenResume] = useState(false);
   const handleValidate = () => {
-    if (code == "SERIALKILLER") {
+    if (code == "SERIALKILLER" || code == "SERIALKILLER") {
       setOpenResume(true);
     }
   };

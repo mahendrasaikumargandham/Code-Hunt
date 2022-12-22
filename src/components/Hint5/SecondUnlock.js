@@ -23,7 +23,7 @@ function SecondUnlock() {
             To get the case details, you must solve the code.
           </h2>
           <p className="second_box_inside_form_p">
-            Find nth prime number. N is the birth year of the victim (current
+            Find nth prime number. N is the death year of the victim (current
             year)
           </p>
           <input
