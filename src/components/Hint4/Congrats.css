@@ -1,6 +1,21 @@
-.firstresume_box_h2_success_button {
+/* .firstresume_box_h2_success_button {
     position: absolute;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
+} */
+
+.congrats {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+    padding: 30px;
+    border-radius: 10px;
+}
+.congrats h1, p {
+    text-align: center;
+    font-size: 20px;
+    color: #ff0000;
 }
