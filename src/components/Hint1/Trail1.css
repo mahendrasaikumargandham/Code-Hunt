@@ -19,19 +19,25 @@
     filter: blur(3px);
 }
 .trail_box_2_image {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
     width: 70%;
+    border-radius: 10px;
 }
 .trail_box_2_button {
     position: absolute;
-    top: 10%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #ff0000;
+    background-color: transparent;
     outline: none;
     border: none;
-    color: #000000;
+    color: transparent;
     font-size: 20px;
     font-weight: 700;
     padding: 10px;
     text-decoration: none;
+    width: 70%;
+    height: 1100px;
 }
