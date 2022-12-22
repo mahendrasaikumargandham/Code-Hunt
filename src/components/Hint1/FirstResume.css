@@ -58,7 +58,7 @@
 }
 .firstresume_box_dna {
     position: relative;
-    background: #fff;
+    background: rgba(255, 0, 0, 0.3);
     width: 93%;
     left: 50%;
     transform: translate(-50%, 0%);
