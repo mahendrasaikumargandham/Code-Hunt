@@ -9,9 +9,9 @@
     background-color: #fff;
     border-radius: 10px;
 }
-.trail_box_inside_form_input {
+.trail_box_inside_form_input_case3 {
     position: absolute;
-    top: 60%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px 10px;
@@ -19,12 +19,12 @@
     border: none;
     outline: none;
     border-radius: 10px;
-    width: 20%;
+    width: 30%;
     font-size: 20px;
 }
-.trail_box_inside_form_button {
+.trail_box_inside_form_button_case3 {
     position: absolute;
-    top: 71%;
+    top: 91%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px 10px;
@@ -32,7 +32,7 @@
     border: 1px solid #fff;
     outline: none;
     border-radius: 10px;
-    width: 22%;
+    width: 32%;
     font-size: 20px;
     color: #fff;
     cursor: pointer;
@@ -51,13 +51,13 @@
     height: 200px;
     width: 200px;
 }
-.second_box_inside_form_h2 {
+.second_box_inside_form_h2_case3 {
     position: absolute;
     color: #fff;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    top: 15%;
+    top: 4%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -68,6 +68,18 @@
     font-weight: 600;
     text-align: center;
     top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+.second_box_inside_form_p2 {
+    position: absolute;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 95%;
@@ -87,4 +99,12 @@
     text-decoration: none;
     padding: 10px;
     border-radius: 6px;
+}
+.second_box_inside_form_p img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    border-radius: 10px;
 }

@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 import "./DNA4.css";
 import codehunt from "../images/codehunt.png";
+import recursion from "../images/recursion.png";
+
 import FirstResume from "./FirstResume";
 function DNA4() {
   const [code, setCode] = useState("");
   const [openResume, setOpenResume] = useState(false);
 
   const handleValidate = () => {
-    if (code == "SERIALKILLER") {
+    if (code == "3210123") {
       setOpenResume(true);
     }
   };
@@ -19,15 +21,13 @@ function DNA4() {
         <form className="trail_box_inside_form">
           <img src={codehunt} alt="" className="trail_box_inside_form_image" />
           <h2 className="second_box_inside_form_h2">
-            To get the victim details with DNA, you must solve the code.
+            to get victim details, you have to solve the given question
           </h2>
-          <p className="second_box_inside_form_p">
-            The killer protected his confidential information by encrypting it
-            using a cipher. His cipher shifts each letter by 1. If the shift
-            takes you past the end of the alphabet, just rotate back to the
-            front of the alphabet. BOU in his code language is ANT. Your clue
-            lies in ILMNWBTFSJBMJMMFSYNHCVMOS.
-          </p>
+          <img
+            className="second_box_inside_form_p_recursion"
+            src={recursion}
+            alt=""
+          />
           <input
             type="text"
             placeholder="Enter Output.."

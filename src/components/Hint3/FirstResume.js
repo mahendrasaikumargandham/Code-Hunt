@@ -51,23 +51,54 @@ function FirstResume({ setOpenResume }) {
             <h3>That he cleared foreign investments in exchange for bribes</h3>
           </div>
         </div>
-        <div className="firstresume_box_dna">
-          <h2 className="firstresume_box_dna_h2">DNA Report</h2>
-          <div className="firstresume_box_dna_first">
-            <h2 className="firstresume_box_dna_first_h2">Victim</h2>
-            <h2 className="firstresume_box_dna_first_h3">- Neil Rao</h2>
+        <div className="firstresume_box_edu">
+          <div className="firstresume_box_part1">
+            <h2>FATHER-Srinivas Rao</h2>
+            <h3>Landlord</h3>
+            <h3>Place of living - Chennai</h3>
+            <h3>Habits - Drinks Regularly</h3>
+            <h3>Age - 58</h3>
+            <h3>Relationship with victim - Good</h3>
           </div>
-          <div className="firstresume_box_dna_first">
-            <h2 className="firstresume_box_dna_first_h2">Fingerprints</h2>
-            <h2 className="firstresume_box_dna_first_h3">- Neil Rao</h2>
+          <div className="firstresume_box_part2">
+            <h2>MOTHER- Sujatha Rao</h2>
+            <h3>Home maker</h3>
+            <h3>Place of living – Chennai</h3>
+            <h3>Age - 51</h3>
+            <h3>Relationship with victim - Good</h3>
           </div>
-          <div className="firstresume_box_dna_first">
-            <h2 className="firstresume_box_dna_first_h2">Hair</h2>
-            <h2 className="firstresume_box_dna_first_h3">- Hari Rathore</h2>
+          <div className="firstresume_box_part1">
+            <h2>SISTER –Drishti Rao</h2>
+            <h3>Home maker</h3>
+            <h3>Place of living – Canada</h3>
+            <h3>Age - 30</h3>
+            <h3>Married</h3>
+            <h3>Relationship with victim - Good</h3>
           </div>
-          <div className="firstresume_box_dna_first">
-            <h2 className="firstresume_box_dna_first_h2">Footprints</h2>
-            <h2 className="firstresume_box_dna_first_h3">Unknown</h2>
+        </div>
+        <div className="firstresume_box_edu">
+          <div>
+            <h2>Pool of suspects</h2>
+            <h3>
+              Harsh - Why? As Neel Rao has become a minister at a young age
+              ruining the possibility of him becoming a minister makes harsh
+              dislike neel.
+            </h3>
+            <h3>
+              Kishore - Why? He is a member of opposition party . In assembly
+              Neel made fun of Kishore which lead Kishore to develop grudge on
+              neel.
+            </h3>
+            <h3>
+              Vamsi - Why? He always keep posting negative comments on neel’s
+              almost every tweet . He once commented saying such kind of people
+              being alive adds no value to the society.
+            </h3>
+            <h3>
+              Hari Rathore and Anil Jain - Why? Hari Rathore is a common friend
+              of our victim and Anil . The two of them met the victim before his
+              death.
+            </h3>
           </div>
         </div>
       </div>

@@ -22,13 +22,13 @@ function App() {
           <Route path="/firstcase" element={<Trail1 />} />
           <Route path="/secondcase" element={<Trail2 />} />
           <Route path="/thirdcase" element={<Trail3 />} />
-          <Route path="/forthcase" element={<Trail4 />} />
-          <Route path="/climax" element={<Trail5 />} />
+          <Route path="/forthcase" element={<Trail5 />} />
+          <Route path="/climax" element={<Trail4 />} />
           <Route path="/firstcase/find" element={<DNA1 />} />
           <Route path="/secondcase/find" element={<DNA2 />} />
           <Route path="/thirdcase/find" element={<DNA3 />} />
-          <Route path="/forthcase/find" element={<DNA4 />} />
-          <Route path="/climax/find" element={<DNA5 />} />
+          <Route path="/forthcase/find" element={<DNA5 />} />
+          <Route path="/climax/find" element={<DNA4 />} />
           {/* <Route path="/climax" element={<Trail6 />} /> */}
         </Routes>
       </Router>

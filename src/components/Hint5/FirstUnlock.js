@@ -10,7 +10,7 @@ function FirstUnlock() {
   const [code, setCode] = useState("");
   const [secondUnlock, setSecondUnlock] = useState(false);
   const handleUnlock = () => {
-    if (code === "welcome") {
+    if (code === "jeet" || code == "JEET") {
       setSecondUnlock(true);
     } else {
       navigate("/");
@@ -29,7 +29,7 @@ function FirstUnlock() {
             className="trail_box_inside_form_image_inside"
           />
           <h2 className="trail_box_inside_form_h2">
-            To enter the case 5, try to get the lock.
+            To enter the case 4, try to get the lock.
           </h2>
           <input
             type="text"

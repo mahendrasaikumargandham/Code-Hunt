@@ -8,7 +8,7 @@ function SecondUnlock() {
   const [code, setCode] = useState("");
   const [openResume, setOpenResume] = useState(false);
   const handleValidate = () => {
-    if (code == "SERIALKILLER") {
+    if (code == "858") {
       setOpenResume(true);
       setCode("");
     }
@@ -25,11 +25,15 @@ function SecondUnlock() {
             To get the case details, you must solve the code.
           </h2>
           <p className="second_box_inside_form_p">
-            The killer protected his confidential information by encrypting it
-            using a cipher. His cipher shifts each letter by 1. If the shift
-            takes you past the end of the alphabet, just rotate back to the
-            front of the alphabet. BOU in his code language is ANT. Your clue
-            lies in ILMNWBTFSJBMJMMFSYNHCVMOS.
+            Detectives, there are a series of murder cases that unfold as you
+            keep on solving, so better get to work! Pull up your sleeves!!
+            prepare notebooks, pencils, and codes and lead your Investigation
+            Team! In order to decode the case, you’ll need to write down your
+            clues, connect the facts, and avoid following false leads. Stay
+            focused and don’t let the murderers slip away! Here you go!!! Your
+            first clue is the output of the below java code snippet.
+            <br></br>
+            System.out.println(‘c’+ ‘0’ + ‘d’ + ‘e’ + ‘h’ + ‘u’ + ‘n’ + ‘t’);
           </p>
           <input
             type="text"

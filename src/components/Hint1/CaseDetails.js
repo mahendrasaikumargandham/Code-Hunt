@@ -80,6 +80,28 @@ function CaseDetails({ openResume, setOpenResume }) {
             complaint at the police station.
           </h2>
         </div>
+        <div className="firstresume_box_dna">
+          <h2 className="firstresume_box_dna_h2">DNA Report</h2>
+          <div className="firstresume_box_dna_first">
+            <h2 className="firstresume_box_dna_first_h2">Forensic analysis</h2>
+            <h2 className="firstresume_box_dna_first_h3">
+              1.The body is confirmed as Nethr Anand
+            </h2>
+            <h2 className="firstresume_box_dna_first_h3">
+              2.There is a partial fingerprint of Rahj and a partial fingerprint
+              of Raghavan Rao.
+            </h2>
+            <h2 className="firstresume_box_dna_first_h3">
+              3.No trace evidence was found.
+            </h2>
+          </div>
+          <div className="firstresume_box_dna_first">
+            <h2 className="firstresume_box_dna_first_h2">Possible Suspects</h2>
+            <h2 className="firstresume_box_dna_first_h3">
+              There are no possible suspects.
+            </h2>
+          </div>
+        </div>
       </div>
     </div>
   );

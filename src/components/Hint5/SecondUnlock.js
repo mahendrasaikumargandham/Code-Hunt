@@ -8,7 +8,7 @@ function SecondUnlock() {
   const [code, setCode] = useState("");
   const [openResume, setOpenResume] = useState(false);
   const handleValidate = () => {
-    if (code == "hello") {
+    if (code == "17581") {
       setOpenResume(true);
     }
   };
@@ -23,13 +23,8 @@ function SecondUnlock() {
             To get the case details, you must solve the code.
           </h2>
           <p className="second_box_inside_form_p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Find nth prime number. N is the birth year of the victim (current
+            year)
           </p>
           <input
             type="text"
@@ -44,6 +39,13 @@ function SecondUnlock() {
           >
             Validate
           </button>
+          <a
+            className="trail_box_inside_form_a"
+            href="https://codehunt-valiant.vercel.app/climax"
+            target="_blank"
+          >
+            Try solving case 5
+          </a>
         </form>
       )}
     </div>

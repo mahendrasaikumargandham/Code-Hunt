@@ -84,6 +84,25 @@ function CaseDetails({ openResume, setOpenResume }) {
             nice talk with the victim from few days.
           </h2>
         </div>
+        <div className="firstresume_box_dna">
+          <h2 className="firstresume_box_dna_h2">DNA Report</h2>
+          <div className="firstresume_box_dna_first">
+            <h2 className="firstresume_box_dna_first_h2">Victim</h2>
+            <h2 className="firstresume_box_dna_first_h3">- Neil Rao</h2>
+          </div>
+          <div className="firstresume_box_dna_first">
+            <h2 className="firstresume_box_dna_first_h2">Fingerprints</h2>
+            <h2 className="firstresume_box_dna_first_h3">- Neil Rao</h2>
+          </div>
+          <div className="firstresume_box_dna_first">
+            <h2 className="firstresume_box_dna_first_h2">Hair</h2>
+            <h2 className="firstresume_box_dna_first_h3">- Hari Rathore</h2>
+          </div>
+          <div className="firstresume_box_dna_first">
+            <h2 className="firstresume_box_dna_first_h2">Footprints</h2>
+            <h2 className="firstresume_box_dna_first_h3">Unknown</h2>
+          </div>
+        </div>
       </div>
     </div>
   );

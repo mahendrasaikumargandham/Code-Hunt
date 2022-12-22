@@ -11,3 +11,30 @@
     height: 100%;
     top: 100%;
 }
+.trail_box_inside_form_input_case2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 10px;
+    background-color: lightgray;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 42%;
+    font-size: 20px;
+}
+.trail_box_inside_form_button_case2 {
+    position: absolute;
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 10px;
+    background-color: #ff0000;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 10px;
+    width: 44%;
+    font-size: 20px;
+    color: #fff;
+}

@@ -51,26 +51,53 @@ function FirstResume({ setOpenResume }) {
             <h3>Rammohan Rao (Film actor)</h3>
           </div>
         </div>
-        <div className="firstresume_box_dna">
-          <h2 className= "firstresume_box_dna_h2">DNA Report</h2>
-          <div className="firstresume_box_dna_first">
-            <h2 className="firstresume_box_dna_first_h2">Forensic analysis</h2>
-            <h2 className="firstresume_box_dna_first_h3">
-              1.The body is confirmed as Nethr Anand
-            </h2>
-            <h2 className="firstresume_box_dna_first_h3">
-              2.There is a partial fingerprint of Rahj and a partial fingerprint
-              of Raghavan Rao.
-            </h2>
-            <h2 className="firstresume_box_dna_first_h3">
-              3.No trace evidence was found.
-            </h2>
+        <div className="firstresume_box_edu">
+          <div className="firstresume_box_part1">
+            <h2>FATHER-Sudhakar Anand</h2>
+            <h3>Farmer</h3>
+            <h3>Place of living - Hyderabad</h3>
+            <h3>Habits - Nil</h3>
+            <h3>Age - 57</h3>
+            <h3>Relationship with victim - Good</h3>
           </div>
-          <div className="firstresume_box_dna_first">
-            <h2 className="firstresume_box_dna_first_h2">Possible Suspects</h2>
-            <h2 className="firstresume_box_dna_first_h3">
-              There are no possible suspects.
-            </h2>
+          <div className="firstresume_box_part2">
+            <h2>MOTHER- Rekha Anand</h2>
+            <h3>Home maker</h3>
+            <h3>Place of living - Hyderabad</h3>
+            <h3>Age - 53</h3>
+            <h3>Relationship with victim - Good</h3>
+          </div>
+        </div>
+        <div className="firstresume_box_edu">
+          <div className="firstresume_box_part1">
+            <h2>WIFE - Riya Anand</h2>
+            <h3>Interior designer</h3>
+            <h3>Place of living - Hyderabad</h3>
+            <h3>Age - 25</h3>
+            <h3>Married - for 1.5 years</h3>
+            <h3>Relationship with victim - Bad</h3>
+          </div>
+          <div className="firstresume_box_part2">
+            <h2>BROTHER-Vamsi Anand</h2>
+            <h3>Software Engineer</h3>
+            <h3>Place of living - America</h3>
+            <h3>Unmarried</h3>
+            <h3>Relationship with victim - Good</h3>
+          </div>
+        </div>
+        <div className="firstresume_box_edu">
+          <div>
+            <h2>Pool of suspects</h2>
+            <h3>
+              Riya Anand - Why? - Riya Anand and Nethr Anand are on the verge of
+              divorce. She says that he never understood her and that it was
+              never a happy marriage.
+            </h3>
+            <h3>
+              Raghavan Ram - He is a doctor and works in the same hospital as
+              Nethr . Star Hospital. Why? - He was the last person who spoke to
+              Nethr before the incident occurred.
+            </h3>
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Trail4.css";
 import Unlock from "./FirstUnlock";
-import case4 from "../images/case4.png";
+import case4 from "../images/case5.png";
 
 function Trail4() {
   const [lock, setLock] = useState(true);
@@ -14,7 +14,7 @@ function Trail4() {
       <div className="trail_box_2">
         <img className="trail_box_2_image" src={case4} alt="" />
         <a
-          href="http://codehunt-valiant.vercel.app/forthcase/find"
+          href="http://codehunt-valiant.vercel.app/climax/find"
           target="_blank"
           className="trail_box_2_button"
         >

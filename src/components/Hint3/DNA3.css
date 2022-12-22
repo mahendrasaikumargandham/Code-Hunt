@@ -11,3 +11,13 @@
     height: 100%;
     top: 100%;
 }
+.second_box_inside_form_p_image {
+    position: absolute;
+    top: 40%;
+    width: 270px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.second_box_inside_form_p2 {
+    
+}

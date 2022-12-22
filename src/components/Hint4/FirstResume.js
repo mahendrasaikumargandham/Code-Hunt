@@ -34,7 +34,7 @@ function FirstResume({ setOpenResume }) {
           </div>
           <div className="firstresume_box_part2">
             <h2>Contact Info</h2>
-            <h3>PHONE NO - 781XXXXX12</h3>
+            <h3>PHONE NO - 794XXXXX12</h3>
             <h3>EMAIL ID - aaravmalhotra@gmail.com</h3>
             <h3>PROFESSION - Fashion Designer</h3>
           </div>
@@ -55,15 +55,43 @@ function FirstResume({ setOpenResume }) {
             <h3>Bhumika Arora</h3>
           </div>
         </div>
-        <div className="firstresume_box_dna">
-          <h2 className="firstresume_box_dna_h2">DNA Report</h2>
-          <div className="firstresume_box_dna_first">
-            <h2 className="firstresume_box_dna_first_h2">Victim</h2>
-            <h2 className="firstresume_box_dna_first_h3">- Aarav Malhotra</h2>
+        <div className="firstresume_box_edu">
+          <div className="firstresume_box_part1">
+            <h2>FATHER-Manoj Malhotra</h2>
+            <h3>Contractor</h3>
+            <h3>Place of living – Madhya Pradesh</h3>
+            <h3>Habits – Drinks Regularly</h3>
+            <h3>Age - 59</h3>
+            <h3>Relationship with victim - Bad</h3>
           </div>
-          <div className="firstresume_box_dna_first">
-            <h2 className="firstresume_box_dna_first_h2">Possible Suspects</h2>
-            <h2 className="firstresume_box_dna_first_h3">- None</h2>
+          <div className="firstresume_box_part2">
+            <h2>MOTHER- Anamika Malhotra</h2>
+            <h3>Dead 2 years ago</h3>
+            <h2>Siblings</h2>
+            <h3>Nil</h3>
+          </div>
+          <div className="firstresume_box_part1">
+            <h2>WIFE – Nidhi Malhotra</h2>
+            <h3>Data Analyst</h3>
+            <h3>Place of living – Delhi</h3>
+            <h3>Age - 25</h3>
+            <h3>No. of children - 1</h3>
+            <h3>CHILD NAME - Yash Malhotra</h3>
+            <h3>AGE – 2 Years</h3>
+            <h3>Relationship with victim - Good</h3>
+          </div>
+        </div>
+        <div className="firstresume_box_edu">
+          <div>
+            <h2>Pool of suspects</h2>
+            <h3>
+              Rana Sinha - Why? Had some issues while dealing with land
+              property.
+            </h3>
+            <h3>
+              Ravi Ramineni - Why? One time when they were in a party they got
+              into a bad argument.
+            </h3>
           </div>
         </div>
       </div>

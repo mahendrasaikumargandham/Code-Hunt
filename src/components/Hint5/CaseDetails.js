@@ -82,6 +82,32 @@ function CaseDetails({ openResume, setOpenResume }) {
             got a call.
           </h2>
         </div>
+        <div className="firstresume_box_dna">
+          <h2 className="firstresume_box_dna_h2">DNA Report</h2>
+          <div className="firstresume_box_dna_first">
+            <h2 className="firstresume_box_dna_first_h2">Victim</h2>
+            <h2 className="firstresume_box_dna_first_h3">- Jeet Kapoor</h2>
+          </div>
+          <div className="firstresume_box_dna_first">
+            <h2 className="firstresume_box_dna_first_h2">Fingerprints</h2>
+            <h2 className="firstresume_box_dna_first_h3">- Raghavan Ram</h2>
+            <h2 className="firstresume_box_dna_first_h3">- Quresh khan</h2>
+          </div>
+          <div className="firstresume_box_dna_first">
+            <h2 className="firstresume_box_dna_first_h2">Hair</h2>
+            <h2 className="firstresume_box_dna_first_h3">- Aman Hira</h2>
+          </div>
+          <div className="firstresume_box_dna_first">
+            <h2 className="firstresume_box_dna_first_h2">Footprints</h2>
+            <h2 className="firstresume_box_dna_first_h3">Unknown</h2>
+          </div>
+          <div className="firstresume_box_dna_first">
+            <h2 className="firstresume_box_dna_first_h2">Possible Suspects</h2>
+            <h2 className="firstresume_box_dna_first_h3">Raghavan Ram</h2>
+            <h2 className="firstresume_box_dna_first_h3">Quresh Khan</h2>
+            <h2 className="firstresume_box_dna_first_h3">Aman Hira</h2>
+          </div>
+        </div>
       </div>
     </div>
   );

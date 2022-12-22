@@ -11,3 +11,8 @@
     height: 100%;
     top: 100%;
 }
+.second_box_inside_form_p_recursion {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}

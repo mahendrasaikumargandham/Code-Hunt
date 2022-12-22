@@ -8,7 +8,7 @@ function SecondUnlock() {
   const [code, setCode] = useState("");
   const [openResume, setOpenResume] = useState(false);
   const handleValidate = () => {
-    if (code == "hello") {
+    if (code == "397957") {
       setOpenResume(true);
     }
   };
@@ -23,13 +23,10 @@ function SecondUnlock() {
             To get the case details, you must solve the code.
           </h2>
           <p className="second_box_inside_form_p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Least Common Method of Area and Least Common Method of Perimeter
+            <br></br>Hint: The equivalent number of area is ASCII value of (a) +
+            ASCII value of (r) + ASCII value of (e) + ASCII value of (a)
+            <br></br> The output of the code gives access to next mystery.
           </p>
           <input
             type="text"
@@ -44,13 +41,13 @@ function SecondUnlock() {
           >
             Validate
           </button>
-          <a
+          {/* <a
             className="trail_box_inside_form_a"
             href="https://codehunt-valiant.vercel.app/climax"
             target="_blank"
           >
             Try solving case 5
-          </a>
+          </a> */}
         </form>
       )}
     </div>

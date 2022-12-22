@@ -81,6 +81,29 @@ function CaseDetails({ openResume, setOpenResume }) {
             <h2 className="casedetails_box_details_h3">2. Aman Hira</h2>
           </div>
         </div>
+        <div className="firstresume_box_dna">
+          <h2 className="firstresume_box_dna_h2">DNA Report</h2>
+          <div className="firstresume_box_dna_first">
+            <h2 className="firstresume_box_dna_first_h2">Victim</h2>
+            <h2 className="firstresume_box_dna_first_h3">- Pratik Narayan</h2>
+          </div>
+          <div className="firstresume_box_dna_first">
+            <h2 className="firstresume_box_dna_first_h2">Fingerprints</h2>
+            <h2 className="firstresume_box_dna_first_h3">
+              - Raghavan Ram (On the glass)
+            </h2>
+            <h2 className="firstresume_box_dna_first_h3">
+              - Aman Hira(On the table)
+            </h2>
+            <h2 className="firstresume_box_dna_first_h3">
+              - Arshad Shloka(On the Door and Door knob)
+            </h2>
+          </div>
+          <div className="firstresume_box_dna_first">
+            <h2 className="firstresume_box_dna_first_h2">Footprints</h2>
+            <h2 className="firstresume_box_dna_first_h3">Unknown</h2>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -52,27 +52,56 @@ function FirstResume({ setOpenResume }) {
             <h3>Coworkers - Balakrishna</h3>
           </div>
         </div>
-        <div className="firstresume_box_dna">
-          <h2 className="firstresume_box_dna_h2">DNA Report</h2>
-          <div className="firstresume_box_dna_first">
-            <h2 className="firstresume_box_dna_first_h2">Victim</h2>
-            <h2 className="firstresume_box_dna_first_h3">- Pratik Narayan</h2>
+        <div className="firstresume_box_edu">
+          <div className="firstresume_box_part1">
+            <h2>FATHER-Ramnath Narayan</h2>
+            <h3>Bank employee in SBI</h3>
+            <h3>Place of living – Karnataka</h3>
+            <h3>Habits – Drinks occasionally</h3>
+            <h3>Age - 60</h3>
+            <h3>Relationship with victim - Good</h3>
           </div>
-          <div className="firstresume_box_dna_first">
-            <h2 className="firstresume_box_dna_first_h2">Fingerprints</h2>
-            <h2 className="firstresume_box_dna_first_h3">
-              - Raghavan Ram (On the glass)
-            </h2>
-            <h2 className="firstresume_box_dna_first_h3">
-              - Aman Hira(On the table)
-            </h2>
-            <h2 className="firstresume_box_dna_first_h3">
-              - Arshad Shloka(On the Door and Door knob)
-            </h2>
+          <div className="firstresume_box_part2">
+            <h2>MOTHER- Vasanthi Narayan</h2>
+            <h3>Home maker</h3>
+            <h3>Place of living – Karnataka</h3>
+            <h3>Age - 52</h3>
+            <h3>Relationship with victim - Good</h3>
           </div>
-          <div className="firstresume_box_dna_first">
-            <h2 className="firstresume_box_dna_first_h2">Footprints</h2>
-            <h2 className="firstresume_box_dna_first_h3">Unknown</h2>
+        </div>
+        <div className="firstresume_box_edu">
+          <div className="firstresume_box_part1">
+            <h2>SISTER –Roopa Narayan</h2>
+            <h3>Dentist</h3>
+            <h3>Place of living – Kerala</h3>
+            <h3>Age - 30</h3>
+            <h3>Married</h3>
+            <h3>Relationship with victim - Good</h3>
+          </div>
+          <div className="firstresume_box_part2">
+            <h2>BROTHER-Abhishek Narayan</h2>
+            <h3>Charted Accountant</h3>
+            <h3>Place of living – Karnataka</h3>
+            <h3>Age -- 27</h3>
+            <h3>Unmarried</h3>
+            <h3>Relationship with victim - Bad</h3>
+          </div>
+        </div>
+        <div className="firstresume_box_edu">
+          <div>
+            <h2>Pool of suspects</h2>
+            <h3>
+              Abhishek Narayan - Why? Pratik Narayan and Abhishek Narayan have
+              conflicts regarding the property division.
+            </h3>
+            <h3>
+              Avanti Shetty - She is a dancer and they met in dance class. Why?
+              - Avanti is Pratik’s ex-girlfriend .
+            </h3>
+            <h3>
+              Raghavan Ram and Aman Hira - Why? They visited the victim exactly
+              2 days before his death .
+            </h3>
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ function FirstUnlock() {
   const [code, setCode] = useState("");
   const [secondUnlock, setSecondUnlock] = useState(false);
   const handleUnlock = () => {
-    if (code === "welcome") {
+    if (code === "neel" || code === "NEEL") {
       setSecondUnlock(true);
     } else {
       navigate("/");
